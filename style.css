@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s;
+}
+body{
+    background-color: #D1C145;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Rajdhani', sans-serif;
+}
+.qoute-container{
+    max-width: 500px;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.164);
+}
+.qoute-container i{
+    float: left;
+    font-size: 2em;
+}
+.qoute-container .q{
+    font-size: 2.5em;
+    color: rgba(0, 0, 0, 0.863);
+}
+.qoute-container .q i{
+    font-size: 1.5em;
+}
+.qoute-container .a{
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.qoute-container button{
+    padding: 10px 15px;
+    cursor: pointer;
+    float: right;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.863);
+    font-family: 'Rajdhani', sans-serif;
+}
+@media screen and (max-width: 500px) {
+    .qoute-container{
+        max-width: 350px;
+    }
+    .qoute-container p{
+        font-size: .9em;
+    }
+}
+@media screen and (max-width: 320px){
+    .qoute-container{
+        max-width: 290px;
+    }
+    .qoute-container p{
+        font-size: .8em;
+    }
+}
